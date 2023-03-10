@@ -11,18 +11,18 @@ icon:  mille_icon.png
 title: Mille Bournes (Text)
 
 apps:
-  millebournes:
-    command: millebournes
+  millebornes:
+    command: millebornes
 parts:
-  millebournes:
+  millebornes:
     # See 'snapcraft plugins'
     plugin: dump
     source: .
 #    build-packages: [default-jre]
 #    stage-packages: [default-jre]
     organize:
-      millebournes: build/
-      millebournes.1: man/man1/
+      millebornes: build/
+      millebornes.1: man/man1/
 
 architectures:
   - build-on: amd64
